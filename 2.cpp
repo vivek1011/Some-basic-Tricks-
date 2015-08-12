@@ -16,17 +16,11 @@ int main()
 	{
 		while(a[i]<a[v.back()])
 		{
-			ep[v.back()] = i ;
+			ep[v.back()] = i-1;
 			v.pop_back();
 		}
-		sp[i] = v.back();
+		sp[i] = v.back()+1; 
 		v.push_back(i);
-	}
-	fl(i , 1, n+1)
-	{
-		sp[i] = sp[i]+1;
-		ep[i] = ep[i] - 1;
-		cout<<sp[i]<<" "<<ep[i]<<endl;
 	}
 	return 0;	
 }
