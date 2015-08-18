@@ -6,4 +6,4 @@ Short tricks to be used instantly.
 2.cpp - How to find for a particular element a[i] such a range l[i] , r[i] such that a[i] is minimum in that range.
         similar can be done for that maximum . just reverse the sign and put a[0] = INT_MAX; a[n+1] = INT_MAX;
 
-PrimeFactors.cpp - How to get the Prime Factorisation of upto 10^5 numbers in a 2-D vector in Sieve complexity. 
+PrimeFactors.cpp - How to get the Prime Factorisation of upto 10^5 numbers in a 2-D vector in SieveOfEratosThenes complexity. 
