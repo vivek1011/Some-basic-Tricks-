@@ -9,3 +9,8 @@ while(left < n && right < n )
     increment left; 
   right = max(right , left); 
 }
+
+
+//erases all duplicate elements from the vector. 
+#define all(v) v.begin(),v.end()
+v.erase( unique(all(v)) , v.end()) ; 
