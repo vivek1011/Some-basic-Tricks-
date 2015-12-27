@@ -14,3 +14,8 @@ while(left < n && right < n )
 //erases all duplicate elements from the vector. 
 #define all(v) v.begin(),v.end()
 v.erase( unique(all(v)) , v.end()) ; 
+
+// string to ll or integer;
+string s;
+ll n = atoll(s);  // similarly atoi (string to integer .)
+cout << n << endl; 
